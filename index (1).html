@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a1630">
+<meta name="description" content="HIMAKOM Gen 6 — Himpunan Mahasiswa Program Studi PJJ Komunikasi Universitas Siber Asia. Inklusif, Kompeten, dan Profesional.">
+<title>HIMAKOM Gen 6 — PJJ Komunikasi Universitas Siber Asia</title>
+<style>
+:root{--navy:#09152d;--navy2:#10264c;--blue:#477dff;--cyan:#75e0e8;--ink:#17233b;--muted:#66738b;--paper:#f5f7fb;--white:#fff;--line:#e5eaf2;--radius:22px;--shadow:0 18px 55px rgba(8,22,48,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(9,21,45,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.1);color:white}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.02em}.brand-mark{width:43px;height:43px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--cyan));color:var(--navy);font-weight:950;font-size:15px;box-shadow:0 8px 22px #477dff55}.brand small{display:block;font-size:10px;letter-spacing:.13em;color:#aebbd2;font-weight:700;margin-top:-3px}.navlinks{display:flex;align-items:center;gap:23px;font-size:13px;font-weight:650;color:#dbe4f4}.navlinks a:hover{color:var(--cyan)}.navlinks .ruang{padding:10px 15px;border-radius:999px;background:var(--blue);color:white}.menu-btn{display:none;background:transparent;border:1px solid #53617b;color:white;border-radius:10px;padding:8px 12px;font-size:20px}
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 18%,#244b87 0,transparent 33%),radial-gradient(ellipse at 15% 95%,#18345f 0,transparent 38%),var(--navy);color:white;padding:92px 0 80px}.hero:after{content:"";position:absolute;right:-140px;bottom:-260px;width:560px;height:560px;border:1px solid #7de4ee35;border-radius:50%;box-shadow:0 0 0 55px #7de4ee0c,0 0 0 110px #7de4ee08;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:55px;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before{content:"";width:25px;height:2px;background:var(--cyan)}h1{font-size:clamp(42px,6vw,76px);line-height:1.02;letter-spacing:-.055em;margin:20px 0 20px;font-weight:900}.hero h1 span{display:block;color:var(--cyan)}.hero p{font-size:17px;color:#c6d3e8;max-width:590px;margin:0 0 30px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:12px;font-weight:800;font-size:14px;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--blue);color:#fff;box-shadow:0 12px 28px #477dff3d}.btn-outline{border:1px solid #71819d;color:white}.hero-art{min-height:370px;display:grid;place-items:center;position:relative}.orbit{width:min(350px,90%);aspect-ratio:1;border-radius:50%;border:1px solid #8ce7ed55;display:grid;place-items:center;position:relative;background:radial-gradient(circle,#19345c 0,#10264b 55%,#0b1a36 72%);box-shadow:inset 0 0 60px #477dff20,0 25px 80px #0003}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #8ce7ed33;border-radius:50%;inset:25px}.orbit:after{inset:-23px;border-style:dashed;animation:spin 50s linear infinite}.orbit-core{text-align:center;z-index:1}.orbit-core strong{display:block;font-size:84px;line-height:1;font-weight:950;letter-spacing:-.08em;color:white}.orbit-core span{display:block;color:var(--cyan);letter-spacing:.25em;font-size:13px;font-weight:900;margin-top:12px}.orbit-tag{position:absolute;padding:9px 13px;background:#172f54;border:1px solid #52719b;border-radius:12px;font-size:11px;font-weight:800;box-shadow:var(--shadow)}.tag1{top:28px;left:-12px}.tag2{right:-18px;top:110px}.tag3{bottom:32px;left:0}@keyframes spin{to{transform:rotate(360deg)}}
+.ticker{background:var(--blue);color:#fff;padding:13px 0;font-size:11px;letter-spacing:.17em;font-weight:900;text-transform:uppercase;overflow:hidden}.ticker-inner{display:flex;justify-content:space-around;gap:22px;flex-wrap:wrap}.ticker b{color:#bafaff}
+section{padding:88px 0}.section-head{max-width:690px;margin-bottom:35px}.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--blue);font-weight:900}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.1;letter-spacing:-.04em;margin:10px 0 14px;color:var(--navy)}.section-head p{margin:0;color:var(--muted);font-size:16px}.about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:48px;align-items:center}.about-card{padding:32px;border-radius:var(--radius);background:linear-gradient(145deg,var(--navy),#163565);color:white;min-height:300px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:var(--shadow);position:relative;overflow:hidden}.about-card:after{content:"G6";position:absolute;right:-15px;bottom:-65px;font-size:180px;line-height:1;font-weight:950;color:#ffffff0b;letter-spacing:-.1em}.about-card .quote{font-size:29px;line-height:1.2;letter-spacing:-.03em;font-weight:850;position:relative;z-index:1}.about-card small{color:var(--cyan);font-weight:800;letter-spacing:.13em;text-transform:uppercase;position:relative;z-index:1}.about-copy p{color:var(--muted)}.pill-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.pill{padding:8px 12px;border-radius:999px;background:#edf3ff;color:#264a8d;font-size:12px;font-weight:800}
+.values{background:var(--paper)}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.value-card{padding:27px;background:white;border:1px solid var(--line);border-radius:18px;transition:.2s}.value-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.num{width:42px;height:42px;border-radius:13px;background:#eaf0ff;color:var(--blue);display:grid;place-items:center;font-weight:950;margin-bottom:18px}.value-card h3{margin:0 0 7px;font-size:20px}.value-card p{margin:0;color:var(--muted);font-size:14px}
+.org-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.person-card{border:1px solid var(--line);border-radius:17px;padding:22px;background:#fff}.person-card.featured{background:var(--navy);color:white;border-color:var(--navy)}.role{color:var(--blue);font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:900}.featured .role{color:var(--cyan)}.person-card h3{font-size:16px;line-height:1.35;margin:9px 0 6px}.person-card p{font-size:12px;color:var(--muted);margin:0}.featured p{color:#c3d0e6}.division-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.division{border-radius:18px;border:1px solid var(--line);padding:25px;background:linear-gradient(145deg,#fff,#f8faff)}.division .icon{font-size:24px}.division h3{margin:13px 0 7px;font-size:18px}.division p{color:var(--muted);font-size:13px;margin:0}.division .members{margin-top:13px;padding-top:13px;border-top:1px solid var(--line);font-size:12px;color:#34435e}
+.ruang-section{background:var(--navy);color:white;position:relative;overflow:hidden}.ruang-section .section-head h2{color:white}.ruang-section .section-head p{color:#bdcbe0}.ruang-card{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:32px;border:1px solid #496187;border-radius:22px;background:linear-gradient(120deg,#12284b,#172f58);position:relative;overflow:hidden}.ruang-card h3{font-size:26px;margin:0 0 8px}.ruang-card p{color:#c3d0e5;margin:0;max-width:650px}.ruang-card .btn{white-space:nowrap}.ruang-icon{font-size:46px;margin-bottom:10px}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.info-card{border:1px solid var(--line);border-radius:18px;padding:26px}.info-card h3{margin:0 0 12px}.info-card p{color:var(--muted);margin:7px 0}.info-card a{color:var(--blue);font-weight:800}.map-link{display:inline-block;margin-top:12px}
+footer{background:#060f22;color:#b9c6da;padding:30px 0}.footer-row{display:flex;justify-content:space-between;gap:25px;align-items:center}.footer-brand{font-weight:900;color:white}.footer-row small{font-size:12px}
+@media(max-width:900px){.hero-grid,.about-grid{grid-template-columns:1fr}.hero-art{min-height:330px}.org-grid{grid-template-columns:repeat(2,1fr)}.division-grid{grid-template-columns:repeat(2,1fr)}.navlinks{gap:12px}.navlinks a{font-size:12px}}
+@media(max-width:650px){.wrap{width:min(100% - 28px,1160px)}.nav{height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:var(--navy);padding:18px 20px 24px;flex-direction:column;align-items:stretch;border-bottom:1px solid #31415f}.navlinks.open{display:flex}.navlinks a{padding:9px 3px;font-size:14px}.navlinks .ruang{text-align:center}.hero{padding:65px 0 55px}.hero-grid{gap:20px}h1{font-size:48px}.hero p{font-size:15px}.hero-art{min-height:300px}.orbit{width:265px}.orbit-core strong{font-size:67px}.orbit-tag{font-size:10px}.tag2{right:-5px}.tag1{left:-3px}section{padding:62px 0}.value-grid,.division-grid,.info-grid{grid-template-columns:1fr}.org-grid{grid-template-columns:1fr 1fr;gap:10px}.person-card{padding:16px}.person-card h3{font-size:14px}.ruang-card{align-items:flex-start;flex-direction:column;padding:24px}.ruang-card h3{font-size:23px}.footer-row{align-items:flex-start;flex-direction:column}.ticker-inner{justify-content:center}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#beranda" aria-label="HIMAKOM Gen 6 Beranda">
+      <span class="brand-mark">H6</span>
+      <span>HIMAKOM <small>PJJ KOMUNIKASI · UNIVERSITAS SIBER ASIA</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="navlinks" id="navlinks">
+      <a href="#tentang">Tentang</a><a href="#nilai">Nilai Kami</a><a href="#pengurus">Pengurus</a><a href="#divisi">Divisi</a><a href="#kampus">Kampus</a>
+      <a class="ruang" href="https://penilaianlombasamarasa.netlify.app/" target="_blank" rel="noopener noreferrer">RuangJuri ↗</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="beranda">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">Generasi 6 · Periode 2026/2027</div>
+   <h1>Bergerak Bersama.<span>Berdampak Nyata.</span></h1>
+   <p>Himpunan Mahasiswa Program Studi PJJ Komunikasi, Universitas Siber Asia. Ruang untuk bertumbuh, berkolaborasi, dan membawa gagasan menjadi aksi.</p>
+   <div class="actions"><a class="btn btn-primary" href="#tentang">Kenali HIMAKOM <span>↓</span></a><a class="btn btn-outline" href="https://penilaianlombasamarasa.netlify.app/" target="_blank" rel="noopener noreferrer">Buka RuangJuri ↗</a></div>
+  </div>
+  <div class="hero-art" aria-label="Identitas visual HIMAKOM Generasi 6">
+   <div class="orbit"><span class="orbit-tag tag1">INCLUSIVE</span><span class="orbit-tag tag2">COLLABORATIVE</span><span class="orbit-tag tag3">IMPACTFUL</span><div class="orbit-core"><strong>GEN<span style="color:var(--cyan)">6</span></strong><span>HIMAKOM</span></div></div>
+  </div>
+ </div>
+</section>
+<div class="ticker"><div class="wrap ticker-inner"><span>INKLUSIF <b>✳</b></span><span>KOMPETEN <b>✳</b></span><span>PROFESIONAL <b>✳</b></span><span>BERKOLABORASI <b>✳</b></span></div></div>
+<section id="tentang">
+ <div class="wrap about-grid">
+  <div class="about-card"><small>HIMAKOM PJJ Komunikasi Universitas Siber Asia</small><div class="quote">“Satu ruang, banyak perspektif, satu tujuan untuk bertumbuh bersama.”</div><small>Estafet Gen 6 · 2026/2027</small></div>
+  <div class="about-copy"><div class="section-head"><div class="kicker">Tentang HIMAKOM</div><h2>Tempat ide bertemu aksi.</h2><p>HIMAKOM merupakan wadah mahasiswa Program Studi PJJ Komunikasi Universitas Siber Asia untuk saling terhubung, mengembangkan potensi, serta menghadirkan kegiatan yang bermanfaat bagi mahasiswa dan lingkungan kampus.</p></div>
+  <p>Di Generasi 6, kami melanjutkan langkah dengan semangat baru: membuka ruang partisipasi, menguatkan kompetensi, dan membangun kolaborasi yang profesional. Karena komunikasi bukan hanya tentang menyampaikan pesan, tetapi juga mendengarkan, memahami, dan menggerakkan.</p>
+  <div class="pill-row"><span class="pill">#HIMAKOMGen6</span><span class="pill">#PJJKomunikasiUniversitasSiberAsia</span><span class="pill">#UniversitasSiberAsia</span></div></div>
+ </div>
+</section>
+<section class="values" id="nilai">
+ <div class="wrap"><div class="section-head"><div class="kicker">Nilai Generasi 6</div><h2>Tiga nilai, satu gerakan.</h2><p>Landasan kami dalam membangun organisasi yang relevan, terbuka, dan bertanggung jawab.</p></div>
+ <div class="value-grid">
+  <article class="value-card"><div class="num">01</div><h3>Inklusif</h3><p>Menciptakan ruang yang terbuka, menghargai perbedaan, dan memberi kesempatan bagi setiap mahasiswa untuk terlibat.</p></article>
+  <article class="value-card"><div class="num">02</div><h3>Kompeten</h3><p>Mendorong pengembangan keterampilan komunikasi, kreativitas, kepemimpinan, dan kemampuan profesional.</p></article>
+  <article class="value-card"><div class="num">03</div><h3>Profesional</h3><p>Bekerja dengan tanggung jawab, komunikasi yang jelas, kolaborasi yang sehat, dan komitmen terhadap hasil.</p></article>
+ </div></div>
+</section>
+<section id="pengurus">
+ <div class="wrap"><div class="section-head"><div class="kicker">Orang-orang di balik gerakan</div><h2>Pengurus inti Gen 6.</h2><p>Kenali tim yang mengoordinasikan langkah HIMAKOM periode 2026/2027.</p></div>
+ <div class="org-grid">
+  <article class="person-card featured"><div class="role">Ketua HIMAKOM</div><h3>Almas Linofian Mu’thasim</h3><p>Mengkoordinasikan arah dan gerak organisasi.</p></article>
+  <article class="person-card"><div class="role">Wakil Ketua</div><h3>Salsa Kania Elshara</h3><p>Mendampingi koordinasi dan pelaksanaan program.</p></article>
+  <article class="person-card"><div class="role">Sekretaris</div><h3>Novia Berliana Sari</h3><p>Mendukung administrasi dan dokumentasi organisasi.</p></article>
+  <article class="person-card"><div class="role">Bendahara</div><h3>Citra Novita</h3><p>Mengelola administrasi dan pertanggungjawaban keuangan.</p></article>
+ </div>
+ <p style="color:var(--muted);font-size:13px;margin-top:18px">Daftar anggota tiap divisi dapat dilihat pada bagian divisi di bawah.</p>
+ </div>
+</section>
+<section class="values" id="divisi">
+ <div class="wrap"><div class="section-head"><div class="kicker">Kolaborasi lintas peran</div><h2>Setiap divisi punya cerita.</h2><p>Peran yang berbeda, bergerak menuju tujuan yang sama.</p></div>
+ <div class="division-grid">
+  <article class="division"><div class="icon">◈</div><h3>Multimedia</h3><p>Menghidupkan cerita HIMAKOM melalui visual, desain, foto, video, dan konten digital.</p><div class="members">Dwi Nofita Sari · Akbar Rancang Sumbara · Febila Tridianingsih · Alyaa Ramadhanti Putri · Alif Hamdani</div></article>
+  <article class="division"><div class="icon">◎</div><h3>Humas & Advokasi</h3><p>Membangun komunikasi, menjaga relasi, dan menjadi jembatan aspirasi mahasiswa.</p><div class="members">Nyoman Rossa Chantikha · Khilda Ni’matul Maula · Cindy Rahayu Putri</div></article>
+  <article class="division"><div class="icon">✳</div><h3>Prestasi & Kompetisi</h3><p>Mendorong mahasiswa mengenali peluang, mengasah potensi, dan berani berkompetisi.</p><div class="members">Muhammad Rhizky Indalhadi · Puspa Alamia</div></article>
+  <article class="division"><div class="icon">⌘</div><h3>P3M</h3><p>Mengembangkan kontribusi, pengabdian, dan kegiatan yang berdampak bagi masyarakat.</p><div class="members">Reffa Aulia Putri Kurnia</div></article>
+  <article class="division"><div class="icon">✦</div><h3>Ekonomi Kreatif</h3><p>Mengembangkan ide kreatif menjadi peluang kolaborasi, merchandise, dan kegiatan produktif.</p><div class="members">Risma Yulia Safitri · Adjie Syahrul Muharam</div></article>
+  <article class="division"><div class="icon">↗</div><h3>Kolaborasi Terbuka</h3><p>Punya ide kegiatan atau ingin berkolaborasi? HIMAKOM selalu terbuka untuk gagasan yang baik.</p><div class="members">Mari tumbuh dan berkarya bersama Gen 6.</div></article>
+ </div></div>
+</section>
+<section class="ruang-section" id="ruangjuri">
+ <div class="wrap"><div class="section-head"><div class="kicker" style="color:var(--cyan)">Tools & layanan</div><h2>RuangJuri.</h2><p>Akses aplikasi penilaian lomba melalui satu pintu. Klik tombol di bawah untuk membuka aplikasi RuangJuri di tab baru.</p></div>
+  <div class="ruang-card"><div><div class="ruang-icon">◫</div><h3>Penilaian lomba, lebih terarah.</h3><p>RuangJuri merupakan aplikasi eksternal untuk mendukung proses penilaian lomba. Aplikasi akan terbuka di tab baru sehingga halaman HIMAKOM tetap dapat diakses.</p></div><a class="btn btn-primary" href="https://penilaianlombasamarasa.netlify.app/" target="_blank" rel="noopener noreferrer">Masuk ke RuangJuri ↗</a></div>
+ </div>
+</section>
+<section id="kampus">
+ <div class="wrap"><div class="section-head"><div class="kicker">Lingkungan akademik</div><h2>Bagian dari Universitas Siber Asia.</h2><p>HIMAKOM Gen 6 berada di lingkungan Program Studi PJJ Komunikasi, Universitas Siber Asia.</p></div>
+ <div class="info-grid">
+  <article class="info-card"><h3>Universitas Siber Asia</h3><p><strong>Alamat:</strong> Jl. Harsono RM No. 1, RT.9/RW.4, Ragunan, Pasar Minggu, Jakarta Selatan, DKI Jakarta 12550.</p><p><strong>Program:</strong> PJJ Komunikasi.</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Universitas+Siber+Asia+Jl+Harsono+RM+No+1+Jakarta+Selatan" target="_blank" rel="noopener noreferrer">Lihat lokasi kampus di Google Maps ↗</a></article>
+  <article class="info-card"><h3>Terhubung dengan HIMAKOM</h3><p>Untuk informasi kegiatan, kolaborasi, dan kabar terbaru, ikuti kanal resmi HIMAKOM yang dikelola pengurus.</p><p><strong>Identitas:</strong> HIMAKOM Gen 6 · Periode 2026/2027</p><p><strong>Tagar:</strong> #HIMAKOMGen6</p><a href="https://unsia.ac.id/" target="_blank" rel="noopener noreferrer">Kunjungi situs Universitas Siber Asia ↗</a></article>
+ </div></div>
+</section>
+</main>
+<footer><div class="wrap footer-row"><div><div class="footer-brand">HIMAKOM GEN 6</div><small>PJJ Komunikasi · Universitas Siber Asia</small></div><small>Inklusif · Kompeten · Profesional<br>© 2026 HIMAKOM Gen 6</small></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');const navlinks=document.getElementById('navlinks');
+menuBtn.addEventListener('click',()=>{const opened=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(opened));menuBtn.textContent=opened?'✕':'☰'});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰'}));
+</script>
+</body>
+</html>
